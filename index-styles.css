@@ -1,0 +1,15 @@
+h1{
+    color: purple;
+    font-size: 2.5em;
+    text-align: center;
+}
+p{
+    font-style: cursive;
+    color: rgb(142, 127, 255);
+    font-size: 1.2em;
+}
+
+body{
+    background-color: aqua;
+
+}
