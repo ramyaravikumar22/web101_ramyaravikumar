@@ -1,0 +1,34 @@
+image{
+    width: 50%;
+    height: 150px:
+    
+    
+}
+
+.address{
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.skills{
+    display: grid;
+    
+    display: list-item;
+
+}
+
+.Name{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.wrapper{
+    display: grid;
+}
+
+/*
+img{
+    width:200px;
+    height: 200px;
+}*/
