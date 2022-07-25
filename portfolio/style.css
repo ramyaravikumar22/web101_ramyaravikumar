@@ -103,18 +103,23 @@
 
   img{
     width: 200px;
-    height: 200px;
+    height: 250px;
     
   }
   body{
     text-align: center;
+    background-color: black;
   }
 
   h1 {
-    color:black;
+    color: white;
    /*grid-column: 2/3;*/
    margin: 3% auto;
     border-bottom: 2px solid #1940A9;;
+  }
+  h3{
+    color: white;
+    line-height: 5px;
   }
   nav {
    /* display: flex;*/
@@ -131,9 +136,6 @@
    background-color:azure
   }
 
-  body{
-    background-color: antiquewhite;
-  }
 
  
 
