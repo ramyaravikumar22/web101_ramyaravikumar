@@ -1,24 +1,36 @@
 body{
     text-align: center;
-    background-color: lightblue;
-    margin-top: 10%;
-   
+    margin-top: 10%; 
+    background-image: url(/images/contact_back.jpeg);
 }
 
-
-input{
-    background-color:   white;
-   
-}
-#question{
-    background-color: white ;
-  
+input[type=text], select, textarea {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
     
+  }
+
+#question{
+    background-color: white ;  
 }
-span{
-    font-style: italic;
-}
+
 
 button{
-    background-color: lightgrey;
+    width: 10%;
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blueviolet;
 }
