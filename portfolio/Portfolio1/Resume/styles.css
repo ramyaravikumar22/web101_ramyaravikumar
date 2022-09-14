@@ -9,10 +9,11 @@
 }
 
 body{
-    background: white;
+    /*background: lightgrey;*/
     font-size: 15px;
     line-height: 22px;
-    color: #555555;
+    background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png");
+    margin: 5%;
 }
 
 /* resume left heading in bold*/
@@ -29,15 +30,15 @@ body{
 }
 
 .resume{
-    width: 800px;
+    width: 70%;
     height: auto;
     display: flex;
     margin: 50px auto;
 }
 
 .resume .resume_left{
-    width: 280px;
-    background: #0bb5f4;
+    width: 380px;
+    background: grey;
 }
 
 
@@ -120,13 +121,14 @@ body{
     top: 0;
     left: 0;
     height: 100%;
-    background: #fff;
+    background: grey;
 }
 
 .resume .resume_right{
-    width: 520px;
+    width: 820px;
     background: #fff;
     padding: 25px;
+    border: 1px solid black5654;
 }
 
 .bol{
@@ -162,3 +164,8 @@ body{
    
 }
 
+.link a{
+    color: #c7b37d;
+    margin-left: 80%;
+    margin-bottom: 50%;
+}

@@ -1,14 +1,21 @@
 .about{
 	width: 100%;
-	padding: 100px 0px;
+	padding: 120px 0px;
 	background-color: #191919;
 }
+
+
 .about img{
-	height: 80vh;
-	width: 530px;
+	height: 50vh;
+	width: 500px;
+	margin-right: 50px;
+	padding-right: 50px;
 }
+
 .about-text{
 	width: 550px;
+	margin-bottom: 10px;
+	
 }
 .main{
 	width: 1130px;
@@ -22,7 +29,7 @@
 	color: white;
 	font-size: 75px;
 	text-transform: capitalize;
-	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .about-text h5{
 	color: white;
@@ -38,7 +45,7 @@
 	font-size: 18px;
 	margin-bottom: 45px;
 }
-button{
+/*button{
 	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
@@ -52,4 +59,41 @@ button:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
 	cursor: pointer;
+}*/
+
+.about-text a {
+	font-size: 20px;
+	color: whitesmoke;
+	padding: 10px;
+	line-height: 2px;	
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 10px;
 }
+
+.about-text a:hover {
+	background-color: #c7b37d;
+	color: #191919;
+}
+
+.home_link a {
+	margin-left: 5%;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 50px;
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: bold;
+	transition: .4s;
+	
+}
+
+.home_link a:hover {
+	background-color: #c7b37d;
+	color: black;
+}
+
+
+
